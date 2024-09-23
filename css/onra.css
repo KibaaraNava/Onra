@@ -1,0 +1,157 @@
+/*index.html css*/
+
+* {
+    margin-left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: beige;
+}
+
+/*Header*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    padding: 20px 10% 0 10px;
+    background: rgb(214, 79, 1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    position: relative;
+    font-size: 30px;
+    font-weight: 900;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*Navigation Bar*/
+.nav-bar a {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 800;text-decoration: none;
+    color: black;   
+}
+
+.nav-bar a:hover,
+.nav-bar .active-always {
+    color: gray;
+}
+
+/*Main Content*/
+.home-page {
+    margin-top: 200px;
+}
+
+.home-content {
+    display: inline-block;
+    margin: 0 0 0 35%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(214, 79, 1);
+}
+/*Work Schedule*/
+table, th, td {
+    border: solid 3px whitesmoke;
+    border-collapse: collapse;
+    width: 50%;
+    background: orangered;
+    color: black;
+    font-weight: 400;
+}
+/*Footer*/
+.footer-info {
+    background: rgb(214, 79, 1);
+    position: relative;
+    color: black;
+}
+
+
+/*Mission Page*/
+legend {
+    text-align: center;
+    padding: 20px 0;
+    font-weight: bold;
+    color: rgb(214, 79, 1);
+}
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(214, 79, 1);
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: 1px solid rgb(214, 79, 1);
+    border-radius: 8px;
+    box-sizing: border-box;    
+}
+
+
+input[type=submit] {
+    width: 15%;
+    background: green;
+    color: beige;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=reset] {
+    width: 15%;
+    background: red;
+    color: beige;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}    
+/*Gallery Page*/
+.Gallery-list {
+    display: inline-block;
+    margin-left: 4%;
+}
+
+ul {
+    width: 50%;
+    background: rgba(189, 71, 2, 0.726);
+    padding: 20px;
+}
+
+ol {
+    width: 50%;
+    background: rgb(53, 4, 230);
+    padding: 20px;
+}
+
+ul li {
+    background: rgb(214, 79, 1);
+}
+
+ol li {
+    background: rgb(43, 2, 109);
+}

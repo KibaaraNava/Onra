@@ -7,13 +7,24 @@
         <meta name="viewport" content="width=device-width", initial-scale=1>
         <meta name="description" content="Main Gallery">
         <title>Gallery</title>
+        <link rel="stylesheet" href="css/onra.css">
+
+        <style>
+            img {
+                border: 3px solid  rgb(214, 79, 1);
+                border-radius: 8px;
+                height: 50%;
+                max-width: 100%;
+                 
+            }
+        </style>
 
     </head>
 
 <!--This is the Main Gallery Page-->
 
     <body>
-        <section>
+        <section class="Gallery-list">
 
             <div>
                 <h2>This is our main Gallery</h2>
@@ -57,18 +68,33 @@
 
             <div>
                 <h2>Gallery 1</h2>
-
-                <img src="Public/images/AndermattPolo.jpeg" height="400" alt="A white Polo shirt with Andermatt branding on the left breast pocket, done by Onra Designs Limited">
-
-                <img src="Public/images/ArkionWaterBottle.jpeg" height="400" alt="Four water bottles with Arkion branding on the sides, done by Onra Designs Limited">
-
-                <img src="Public/images/ArkionDiary.jpeg" height="400">
-
-                <img src="Public/images/ProductLabels.jpeg" height="400">
-
-                <img src="Public/images/TimaflorCap.jpeg" height="400">
-
             </div>
+
+            <div class="slider">
+
+                <div class="images-slider">
+                    
+
+                     <img src="Public/images/AndermattPolo.jpeg" class="s1" A white Polo shirt with Andermatt branding on the left breast pocket, done by Onra Designs Limited">
+
+                     <img src="Public/images/ArkionWaterBottle.jpeg" class="s2"   alt="Four water bottles with Arkion branding on the sides, done by Onra Designs Limited">
+
+                     <img src="Public/images/ArkionDiary.jpeg" class="s3"  alt="A diary with Arkion branded by Onra Designs Limited">
+
+                     <img src="Public/images/ProductLabels.jpeg" class="s4"  alt="Product labels">
+
+                     <img src="Public/images/TimaflorCap.jpeg" class="s5" alt="A cap with Timaflor branded across the front">
+                </div>
+
+                <div class="dots">
+                    <label for="s1"></label>
+                    <label for="s2"></label>
+                    <label for="s3"></label>
+                    <label for="s4"></label>
+                    <label for="s5"></label>
+                </div>
+            </div>
+
         </section>
 
 <!--This is the comment section-->
