@@ -1,0 +1,73 @@
+/*body*/
+body {
+    font-family: Open sans-serif;
+}
+/*h elemenmts*/
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+h2, h3 {
+    color: rgb(7, 113, 175);
+}
+header {
+    width: 100%;
+    padding: 30px;
+    color: white;
+    background-image: linear-gradient(to right, black, brown, orange);
+}
+header h2 {
+    color: rgb(184, 122, 28);
+}
+/*Navigation Bar*/
+.navbar {
+  background-color: brown;
+}
+/*content*/
+.lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .row-content {
+    padding: 50px 0;
+    border-bottom: ridge 2px;
+    min-height: 200px;
+  }
+  h3 .libre-baskerville-bold {
+    text-align: center;
+  }
+  /*Footer styles*/
+  footer {
+    padding: 20px 0;
+    background-image: linear-gradient(to right, brown, gray);
+  }
+  a {
+    text-decoration: none;
+  }
+  /* <div class="homevids">
+                <video class="object-fit-scale border rounded" src="Public/videos/OnraProductSamplevid.mp4" controls loop></video>
+            </div> <div class="col-md-6">
+                <video class="object-fit-contain border rounded" alt="An introduction video" src="Public/videos/OnraIntro.mp4" controls loop></video>
+            </div>*/
