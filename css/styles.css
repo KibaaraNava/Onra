@@ -66,8 +66,8 @@ header h2 {
   a {
     text-decoration: none;
   }
-  /* <div class="homevids">
-                <video class="object-fit-scale border rounded" src="Public/videos/OnraProductSamplevid.mp4" controls loop></video>
-            </div> <div class="col-md-6">
-                <video class="object-fit-contain border rounded" alt="An introduction video" src="Public/videos/OnraIntro.mp4" controls loop></video>
-            </div>*/
+/*Carousel Controls*/
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: brown
+}
